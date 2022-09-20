@@ -1,7 +1,10 @@
+import UseState from "./components/UseState";
+
 export default function App() {
   return (
-    <div>
-      <h1>Hello World</h1>
-    </div>
+    <>
+      <h1>Belajar hooks</h1>
+      <UseState />
+    </>
   );
 }
