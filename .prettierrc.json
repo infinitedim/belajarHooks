@@ -3,5 +3,7 @@
   "tabWidth": 2,
   "printWidth": 80,
   "singleQuote": false,
-  "jsxSingleQuote": false
+  "jsxSingleQuote": false,
+  "trailingComma": "all",
+  "singleAttributePerLine": true
 }
