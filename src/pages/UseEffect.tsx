@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 
 export default function UseEffect() {
-  const [times, setTimes] = useState(0);
+  const [times, setTimes] = useState<number>(0);
 
   useEffect(() => {
     setTimeout(() => {
@@ -10,7 +10,7 @@ export default function UseEffect() {
   }, [times]);
 
   return (
-    <section className="use-effect">
+    <section>
       <h1>Use Effect</h1>
       <p>Sekarang Sudah {times} Detik</p>
     </section>
